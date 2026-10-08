@@ -1,0 +1,13 @@
+# AWS key pairs — never commit these
+*.pem
+
+# Build output
+*.class
+bin/
+out/
+a.out
+hello
+
+# Python
+__pycache__/
+.venv/

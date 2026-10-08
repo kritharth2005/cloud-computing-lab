@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Lab — S3 Static Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Static Website on Amazon S3</h1>
+    <p>This page is served directly from an S3 bucket configured for static website hosting.</p>
+    <ul>
+      <li><strong>index.html</strong> and <strong>style.css</strong> are public.</li>
+      <li><strong>secret.html</strong> is private and can only be opened with a signed URL.</li>
+    </ul>
+    <p><a href="secret.html">Try opening secret.html directly</a> (should be blocked with 403 Forbidden)</p>
+  </main>
+</body>
+</html>
