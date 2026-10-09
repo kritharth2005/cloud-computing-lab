@@ -12,7 +12,7 @@ To use the Google App Engine Launcher (Google App Engine SDK) to launch a web ap
   - Windows: [python-2.7.18.amd64.msi](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi) from python.org
   - Linux: install Python 2.7 from your distribution (e.g. the `python2` package from the AUR on Arch)
 - **Google App Engine SDK for Python**, one of:
-  - **SDK archive (recommended, works on any OS):** `google_appengine_1.9.88.zip` from this repository's [Releases page](https://github.com/kritharth2005/cloud-computing-lab/releases/tag/gae-sdk-1.9.88). It contains `dev_appserver.py`, the tool that the Launcher runs behind the scenes.
+  - **SDK archive (recommended, works on any OS):** [`sdk/google_appengine_1.9.88.zip`](sdk/google_appengine_1.9.88.zip) in this folder. It contains `dev_appserver.py`, the tool that the Launcher runs behind the scenes.
   - **Windows installer with the Launcher GUI:** Google's last Windows installer was `GoogleAppEngine-1.9.90.msi` at `https://storage.googleapis.com/appengine-sdks/featured/GoogleAppEngine-1.9.90.msi` (SHA-256 `8dc6037f9833dbfa776f0d8363e82cabcd15ba8896e6bd48230b5b88cc99ac8e`). Google may have removed it; if the link fails, use the SDK archive.
 - The application in [`ae-01-trivial/`](ae-01-trivial)
 
@@ -62,7 +62,7 @@ The first line is the HTTP header, the empty line ends the headers, and the last
 
 **Option B: with the SDK archive (any OS).**
 
-1. Download `google_appengine_1.9.88.zip` from the [Releases page](https://github.com/kritharth2005/cloud-computing-lab/releases/tag/gae-sdk-1.9.88) and unzip it, e.g. into your home folder or `C:\`.
+1. Download [`sdk/google_appengine_1.9.88.zip`](sdk/google_appengine_1.9.88.zip) (on GitHub: open the file → **Download raw file**) and unzip it, e.g. into your home folder or `C:\`.
 2. From the folder that contains `ae-01-trivial`, run:
 
    ```bash
@@ -139,9 +139,9 @@ Hello there Kritharth
 
 | | |
 |---|---|
-| File | `google_appengine_1.9.88.zip` (Releases page) |
+| File | [`sdk/google_appengine_1.9.88.zip`](sdk/google_appengine_1.9.88.zip) (checksum in [`sdk/google_appengine_1.9.88.zip.sha256`](sdk/google_appengine_1.9.88.zip.sha256)) |
 | Version | App Engine SDK for Python 1.9.88 |
-| SHA-256 | `3ce93f48ecd1e6a67e78a10cd8a2aa749f80bd673bee9ffcf741a5ab6fddbffe` |
+| SHA-256 | `9f03bf40aa845242abff31d68d143965d1391e904a3c5f96bddcfbb8fccf4c7e` |
 | Source | Repackaged from the `appengine-sdk` 1.9.88 package on PyPI, which bundles Google's SDK |
 | License | Apache License 2.0 (see `google_appengine/LICENSE` inside the archive) |
 
