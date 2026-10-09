@@ -12,7 +12,7 @@ Lab programs for the Cloud Computing laboratory (2022 scheme). Each program has 
 | 6 | Simulate a cloud scenario in CloudSim with a scheduling algorithm not present in CloudSim | CloudSim 3.0.3 (Java) | [06-cloudsim-scheduling](06-cloudsim-scheduling) |
 | 7 | Thread-based image processing application in Microsoft Azure | Azure Blob Storage (Python) | [07-azure-image-threads](07-azure-image-threads) |
 | 8 | Deploy a web application on an EC2 instance | AWS | [08-ec2-web-app](08-ec2-web-app) |
-| 9 | Google App Engine Launcher | (deprecated) | [09-google-app-engine](09-google-app-engine) |
+| 9 | Use Google App Engine Launcher to launch web applications (deprecated; runs locally) | Google App Engine SDK 1.9.88 (Python 2.7) | [09-google-app-engine](09-google-app-engine) |
 | 10 | Static website on S3 secured with signed URLs | AWS | [10-s3-static-site-signed-urls](10-s3-static-site-signed-urls) |
 | 11 | Video streaming service using S3 and CloudFront | AWS | [11-video-streaming](11-video-streaming) |
 
